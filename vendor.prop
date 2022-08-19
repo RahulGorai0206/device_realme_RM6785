@@ -238,3 +238,16 @@ persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
 ro.secure=0
 ro.debuggable=1
+
+#Disable Some More Logging
+logcat.live=disable
+debugtool.anrhistory=0 
+ro.config.htc.nocheckin=1 
+ro.config.nocheckin=1
+rofiler.debugmonitor=false 
+profiler.launch=false 
+profiler.hung.dumpdobugreport=false
+ro.kernel.checkjni=0
+ro.kernel.android.checkjni=0
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
