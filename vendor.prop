@@ -190,6 +190,11 @@ bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
 
+# Blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=0
+persist.sysui.disableBlur=false
+
 # ColorModes
 persist.sys.sf.color_saturation=1.1
 persist.sys.sf.native_mode=0
